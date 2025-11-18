@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 # hello-world
 Welcome to my first GitHub repository!
 
@@ -7,10 +15,10 @@ Welcome to my first GitHub repository!
 - 💡 Passionate about creating amazing mobile apps 
 
 ## My goals 
-- [] Master Flutter and Dart
-- [] Learn State managment (BLoC/Riverpod)
-- [] Build and publish my first app
-- [] Contribute to open source
+- [ ] Master Flutter and Dart
+- [ ] Learn State managment (BLoC/Riverpod)
+- [ ] Build and publish my first app
+- [ ] Contribute to open source
 
 ## Skills I'm developing
 - Flutter & Dart
@@ -25,3 +33,8 @@ Welcome to my first GitHub repository!
   ---
 
   *'The journey of a thousand miles begins with a single step.'*
+## Today's Achievement
+[x] Learned Git basics
+[x] Cloned my first repository
+[x] Learn to commit from terminal 
+
