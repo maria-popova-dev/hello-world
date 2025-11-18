@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 # hello-world
 Welcome to my first GitHub repository!
 
@@ -34,7 +26,8 @@ Welcome to my first GitHub repository!
 
   *'The journey of a thousand miles begins with a single step.'*
 ## Today's Achievement
-[x] Learned Git basics
-[x] Cloned my first repository
-[x] Learn to commit from terminal 
+
+- [x] Learned Git basics
+- [x] Cloned my first repository
+- [x] Learn to commit from terminal 
 
