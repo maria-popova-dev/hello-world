@@ -39,7 +39,20 @@ Full-featured Instagram clone built with Flutter and Firebase. Created as part o
 - **User Profiles** with follow system
 - **Likes, Comments, Shares**
 - **Firebase Firestore & Storage** for data and media
- 
+
+## 📸 Скриншоты приложения
+
+### Основные экраны
+| Главная | Поиск | Видео | Профиль |
+|---------|-------|-------|---------|
+| ![Главная](screenshots/home_screen.png) | ![Поиск](screenshots/search_screen.png) | ![Видео](screenshots/video_screen.png) | ![Профиль](screenshots/user_screen.png) |
+
+### Создание поста
+| Шаг 1: выбор фото | Шаг 2: подпись и location | Шаг 3: готовый пост |
+|--------------------|----------------------------|----------------------|
+| ![Выбор фото](screenshots/01_post_screen_gallery.png) | ![Редактирование](screenshots/02_post_screen_caption.png) | ![Пост в ленте](screenshots/03_post_published.png) |
+
+
 ## 🛠️ Tech Stack
 - **Flutter 3.0+**, **Dart 3.0+**
 - **Firebase** (Authentication, Firestore, Storage)
