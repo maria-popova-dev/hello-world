@@ -1,96 +1,89 @@
-# hello-world - Instagram Clone (Flutter)
+# insta-clone-flutter
  
-Welcome to my first GitHub repository!
+Full-featured Instagram clone built with Flutter and Firebase. Created as part of a year-long Flutter development program with additional self-implemented features like geolocation.
  
-## About Me
-- 🎯 Learning Flutter Development  
-- 🌱 Currently studying in a year-long Flutter program
-- 💡 Passionate about creating amazing mobile apps
- 
-## My Goals
-- [ ] Master Flutter and Dart
-- [ ] Learn State management (BLoC/Riverpod)
-- [ ] Build and publish my first app
-- [ ] Contribute to open source
- 
-## Skills I'm Developing
-- Flutter & Dart
-- Git & GitHub
-- Figma for UI/UX design
-- Mobile development best practices
- 
-## Today's Achievement
-- [x] Learned Git basics
-- [x] Cloned my first repository
-- [x] Learn to commit from terminal
+[![Flutter](https://img.shields.io/badge/Flutter-3.0+-blue?logo=flutter)](https://flutter.dev)
+[![Dart](https://img.shields.io/badge/Dart-3.0+-blue?logo=dart)](https://dart.dev)
+[![Firebase](https://img.shields.io/badge/Firebase-✓-yellow?logo=firebase)](https://firebase.google.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
  
 ---
  
-# Instagram Clone Project
- 
-## Project Description
-Full-featured Instagram clone built with Flutter and Firebase. Created as part of a year-long Flutter development program with additional self-implemented features like geolocation.
- 
 ## 🚀 Key Features
+ 
 - **User Authentication** (Firebase Auth)
 - **Post Feed** with photos and videos
 - **Create Posts** with media content
-- **📍 Geolocation** - added independently (determines location, converts to address, saves to Firestore, displays in feed)
+- **📍 Geolocation** – added independently (determines location, converts to address, saves to Firestore, displays in feed)
 - **User Profiles** with follow system
 - **Likes, Comments, Shares**
 - **Firebase Firestore & Storage** for data and media
-
-## 📸 Скриншоты приложения
-
-### Основные экраны
-| Главная | Поиск | Видео | Профиль |
-|---------|-------|-------|---------|
-| ![Главная](screenshots/home_screen.png) | ![Поиск](screenshots/search_screen.png) | ![Видео](screenshots/video_screen.png) | ![Профиль](screenshots/user_screen.png) |
-
-### Создание поста
-| Шаг 1: выбор фото | Шаг 2: подпись и location | Шаг 3: готовый пост |
-|--------------------|----------------------------|----------------------|
-| ![Выбор фото](screenshots/01_post_screen_gallery.png) | ![Редактирование](screenshots/02_post_screen_caption.png) | ![Пост в ленте](screenshots/03_post_published.png) |
-
-
+- **Video Player** for video posts
+- **Carousel Slider** for multi-image posts
+ 
+---
+ 
+## 📸 Screenshots
+ 
+### Main Screens
+| Feed | Search | Video | Profile |
+|------|--------|-------|---------|
+| ![Feed](screenshots/home_screen.png) | ![Search](screenshots/search_screen.png) | ![Video](screenshots/video_screen.png) | ![Profile](screenshots/user_screen.png) |
+ 
+### Creating a Post
+| Step 1: Pick photo | Step 2: Add caption & location | Step 3: Post published |
+|--------------------|-------------------------------|------------------------|
+| ![Gallery](screenshots/01_post_screen_gallery.png) | ![Caption](screenshots/02_post_screen_caption.png) | ![Published](screenshots/03_post_published.png) |
+ 
+---
+ 
 ## 🛠️ Tech Stack
+ 
 - **Flutter 3.0+**, **Dart 3.0+**
 - **Firebase** (Authentication, Firestore, Storage)
-- **Geolocation API** (geolocator + geocoding packages)
+- **Geolocation API** (`geolocator` + `geocoding` packages)
 - **Cloudinary** for media optimization
-- **Additional Packages**: video_player, image_picker, carousel_slider, provider
+- **Provider** for state management
+- **Additional Packages**: `video_player`, `image_picker`, `carousel_slider`, `intl`, `timeago`, and more.
+ 
+---
  
 ## 📱 Getting Started
  
 ### Prerequisites
-- Flutter SDK 3.0+
+- Flutter SDK 3.0+ ([install guide](https://flutter.dev/docs/get-started/install))
 - Android Studio / VS Code
 - Firebase account
  
 ### Installation
-```bash
-git clone https://github.com/maria-popova-dev/hello-world.git
-cd hello-world
-flutter pub get
+ 
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/maria-popova-dev/insta-clone-flutter.git
+   cd insta-clone-flutter
 ```
- 
-Firebase Setup
- 
-1. Create project in Firebase Console
-2. Add iOS and Android apps
-3. Download configuration files:
-   · google-services.json → android/app/
-   · GoogleService-Info.plist → ios/Runner/
-4. Enable Authentication, Firestore, Storage
- 
-Run the App
- 
-```bash
-flutter run
-```
- 
+
+1. Install dependencies
+   ```bash
+   flutter pub get
+   ```
+2. Firebase Setup
+   · Create a new project in Firebase Console.
+   · Add Android and iOS apps to your Firebase project.
+   · Download configuration files:
+   · google-services.json → place in android/app/
+   · GoogleService-Info.plist → place in ios/Runner/
+   · Enable Authentication (Email/Password, Google Sign-In, etc.).
+   · Set up Firestore Database and Storage (start in test mode for development).
+3. Run the app
+   ```bash
+   flutter run
+   ```
+
+---
+
 📁 Project Structure
- 
+
 ```
 lib/
 ├── main.dart
@@ -104,24 +97,42 @@ lib/
 └── util/              # Helper utilities
 ```
  
+---
+
 🎯 What I Learned
- 
+
 · Full mobile app development cycle
 · Firebase integration (Auth, Firestore, Storage)
 · State management with Provider
 · Working with native APIs (geolocation)
 · Platform-specific configuration (iOS/Android)
 · Git version control and collaboration
- 
-👩‍💻 Developer
- 
-Maria Popova
-Flutter Developer | Year-Long Program Graduate
- 
-· Email: maria.popova.dev@outlook.com
-· GitHub: maria-popova-dev
+· Project documentation and presentation
  
 ---
+
+👩‍💻 About Me
+
+Maria Popova
+Flutter Developer | Year-Long Program Graduate
+
+· Passionate about creating amazing mobile experiences
+· Constantly learning and exploring new technologies
+· Open to collaboration and opportunities
+
+Contact:
+📧 maria.popova.dev@outlook.com
+🐙 GitHub: maria-popova-dev
  
-'The journey of a thousand miles begins with a single step.'
-This repository documents my journey from Git beginner to Flutter developer.
+---
+
+📄 License
+
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+Note: This project is created for educational purposes as part of a Flutter development course. It is not intended for commercial use and is not affiliated with Instagram or Meta.
+ 
+---
+
+⭐ If you find this project useful, please consider giving it a star! It helps others discover it.
+
