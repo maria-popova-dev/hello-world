@@ -134,5 +134,9 @@ Note: This project is created for educational purposes as part of a Flutter deve
  
 ---
 
+> *"The journey of a thousand miles begins with a single step."* 
+> — Это репозиторий — мой первый шаг в долгом пути Flutter-разработчика. С него всё началось.
+---
+
 ⭐ If you find this project useful, please consider giving it a star! It helps others discover it.
 
